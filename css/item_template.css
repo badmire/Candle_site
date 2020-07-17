@@ -1,0 +1,64 @@
+#main_content {
+    background-color: bisque;
+}
+
+#visual {
+    width: 48%;
+    background: bisque;
+    float: left;
+    margin: 1%;
+    display: block;
+    overflow: visible;
+
+}
+
+#name {
+    margin: auto;
+    text-align: center;
+    width: 85%;
+    background-color:  bisque;
+    color: rgb(89,65,56);
+    font-weight: bolder;
+    font-size: 150%;
+    margin-top: 1%;
+    border-bottom-color: rgb(89,65,56);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    padding: 0.5%;
+}
+
+#pic_container {
+    background-color: bisque;
+    width: 90%;
+    padding: 2%;
+    margin: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 7px; 
+    padding-bottom: 7px;
+}
+
+#pic {
+    display: block;
+    width: 85%;
+    margin: auto;
+}
+
+#order {
+    width: 48%;
+    background: bisque;
+    float: left;
+    margin: 1%;
+    display: block;
+    overflow: visible;
+}
+
+#description {
+    width: 46%;
+    background-color: bisque;
+    float: right;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}

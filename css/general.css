@@ -1,0 +1,67 @@
+html {
+    background-color: rgb(242, 240, 213);
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    min-width: 500px;
+    padding: 10px;
+    background-color: rgb(231, 227, 173);
+}
+
+html,body {
+    height: 100%;
+}
+
+#banner {
+    width: 100%;
+    margin: 0px;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.topnav li {
+    float: left;
+    padding-left: .9em;
+}
+
+.topnav li a {
+    display: block;
+    color: rgb(89,65,56);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#active {
+    background-color: rgb(89,65,56);
+    color: rgb(242, 240, 213);
+}
+
+.store_nav {
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.store_nav li {
+    float: left;
+    padding-left: .9em;
+}
+
+.store_nav li a {
+    display: block;
+    color: rgb(89,65,56);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

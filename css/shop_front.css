@@ -1,0 +1,69 @@
+.grid {
+    display: flex;                       /* establish flex container */
+    flex-wrap: wrap;                     /* enable flex items to wrap */
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+.cell {
+    flex: 0 0 33%;                       /* don't grow, don't shrink, width */
+    display: block;
+    overflow: auto;
+    min-height: 175px;
+    margin-bottom: 5px;
+    background-color: rgb(142,129,78);
+  }
+.cell:nth-child(3n) {
+    background-color: rgb(142,129,78);
+  }
+.name {
+  text-align: center;
+  width: 90%;
+  padding: 2%;
+  margin: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: bisque;
+}
+.pic {
+  display: block;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.details {
+  text-align: right;
+}
+.pic_container {
+  background-color: bisque;
+  width: 90%;
+  padding: 2%;
+  margin: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 7px; 
+  padding-bottom: 7px;
+}
+.details {
+  text-align: center;
+  font-size: 94%;
+  float: right;
+  width: 47%;
+  margin-right: 3%;
+  background-color: bisque;
+  color: rgb(89,65,56);
+  padding: 4px;
+  font-weight: bold;
+  max-height: 10%;
+}
+
+.cart {
+  text-align: center;
+  font-size: 94%;
+  float: left;
+  width: 35%;
+  margin-left: 3%;
+  margin-bottom: 2%;
+  background-color: bisque;
+  color: rgb(89,65,56);
+  padding: 4px;
+}
